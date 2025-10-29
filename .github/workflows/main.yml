@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     # 1. بنستخدم أسرع Runner (اللي بيدعم ARM)
-    runs-on: ubuntu-latest-arm64
+    runs-on: ubuntu-24.04-arm
 
     steps:
       # 2. بنجيب الكود بتاعنا (اللي فيه الـ APK وملفات الـ Maestro)
